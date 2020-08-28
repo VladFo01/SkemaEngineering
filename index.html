@@ -1,0 +1,776 @@
+<!DOCTYPE html>
+<html lang="ru">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link href="https://fonts.googleapis.com/css2?family=Roboto:wght@300;400;500;700;900&display=swap" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css2?family=Roboto+Condensed:wght@300;400;700&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="./css/normalize.css">
+    <link rel="stylesheet" href="./css/style.css">
+    <link rel="shortcut icon" href="./img/favicon.svg" type="image/svg">
+    <link href="https://cdnjs.cloudflare.com/ajax/libs/slick-carousel/1.6.0/slick.min.css" rel="stylesheet"/>
+    <title>СКЕМА - Проектируем инженерные сети и дороги</title>
+</head>
+<body class="lock">
+    <header class="header">
+        <div class="header_bg">
+            <div class="header_main-wrapper">
+                <div class="container header_main">
+                    <a href="./index.html" class="header-logo">
+                        <img src="./img/Logo.svg" alt="Логотип компании СКЕМА" class="logo">
+                    </a>
+                    <nav class="header_nav">
+                        <a href="#" class="header_nav-item"><div class="header_nav-item_triangle header_nav-item_triangle-3"></div><span class="nav-item header_nav-item_3">Проектирование</span></a>
+                        <a href="#" class="nav-item header_nav-item"><div class="header_nav-item_triangle header_nav-item_triangle-2"></div><span class="nav-item header_nav-item_2">Строительство</span></a>
+                        <a href="#" class="nav-item header_nav-item header_nav-lastItem"><div class="header_nav-item_triangle header_nav-item_triangle-1"></div><span class="nav-item header_nav-item_1">Согласование</span></a>
+                    </nav>
+                    <div class="header_nav-phone"><a href="tel: +78126001399" class="phone-link">+7 812 600 13 99</a><img src="./img/navbar_img.svg" alt="" class="header_nav-img"><img src="./img/burger_delete-img.svg" alt="" class="burger_delete-img"></div>
+                </div>
+            </div>
+            <div class="burger_body">
+                <div class="header_main-hr"></div>
+                <div class="container burger_container">
+                    <div class="burger_block burger_block-first">
+                        <div class="burger_item">
+                            <h5 class="burger_item-title">Проектирование</h5>
+                            <div class="burger_item-hr"></div>
+                        </div>
+                        <div class="burger_menu">
+                            <h6 class="burger_menu-title">Водоснабжение и водоотведение</h6>
+                            <img src="./img/Object_arrow.svg" alt="" class="burger_menu-arrow">
+                        </div>
+                        <ul class="burger_list">
+                            <li class="burger_list-item"><a href="./waterSupply.html#anchor-1" class="burger_list-link">Водоснабжение и водоотведения</a></li>
+                            <li class="burger_list-item"><a href="./waterSupply.html#anchor-2" class="burger_list-link">Противопожарное водоснабжение</a></li>
+                            <li class="burger_list-item"><a href="./waterSupply.html#anchor-3" class="burger_list-link">Очистные сооружения</a></li>
+                            <li class="burger_list-item"><a href="./waterSupply.html#anchor-4" class="burger_list-link">Канализационные – насосные станции</a></li>
+                            <li class="burger_list-item"><a href="./waterSupply.html#anchor-5" class="burger_list-link">Дренажные сети</a></li>
+                            <li class="burger_list-item"><a href="./waterSupply.html#anchor-6" class="burger_list-link">Узлы учета сточных вод</a></li>
+                        </ul>
+                        <div class="burger_menu">
+                            <h6 class="burger_menu-title">Тепловые сети</h6>
+                            <img src="./img/Object_arrow.svg" alt="" class="burger_menu-arrow">
+                        </div>
+                        <ul class="burger_list">
+                            <li class="burger_list-item"><a href="#" class="burger_list-link">Наружные тепловые сети</a></li>
+                            <li class="burger_list-item"><a href="#" class="burger_list-link">Внутренние сети отопления</a></li>
+                            <li class="burger_list-item"><a href="#" class="burger_list-link">Индивидуальные тепловые пункты</a></li>
+                            <li class="burger_list-item"><a href="#" class="burger_list-link">Центральные тепловые пункты</a></li>
+                            <li class="burger_list-item"><a href="#" class="burger_list-link">Авторский надзор</a></li>
+                        </ul>
+                        <div class="burger_menu">
+                            <h6 class="burger_menu-title">Электрические сети</h6>
+                            <img src="./img/Object_arrow.svg" alt="" class="burger_menu-arrow">
+                        </div>
+                        <ul class="burger_list">
+                            <li class="burger_list-item"><a href="#" class="burger_list-link">Электрические сети</a></li>
+                            <li class="burger_list-item"><a href="#" class="burger_list-link">Наружное освещение</a></li>
+                            <li class="burger_list-item"><a href="#" class="burger_list-link">Очистные сооружения</a></li>
+                        </ul>
+                        <div class="burger_menu">
+                            <h6 class="burger_menu-title">Улично-дорожные сети</h6>
+                            <img src="./img/Object_arrow.svg" alt="" class="burger_menu-arrow">
+                        </div>
+                        <ul class="burger_list">
+                        </ul>
+                    </div>
+                    <div class="burger_block">
+                        <div class="burger_item">
+                            <h5 class="burger_item-title">Строительство</h5>
+                            <div class="burger_item-hr"></div>
+                        </div>
+                        <div class="burger_menu">
+                            <h6 class="burger_menu-title">Строительство без посредников</h6>
+                            <img src="./img/Object_arrow.svg" alt="" class="burger_menu-arrow">
+                        </div>
+                        <ul class="burger_list">
+                        </ul>
+                        <div class="burger_menu">
+                            <h6 class="burger_menu-title">Поставка оборудования и материалов</h6>
+                            <img src="./img/Object_arrow.svg" alt="" class="burger_menu-arrow">
+                        </div>
+                        <ul class="burger_list">
+                        </ul>
+                    </div>
+                    <div class="burger_block">
+                        <div class="burger_item">
+                            <h5 class="burger_item-title">Согласование</h5>
+                            <div class="burger_item-hr"></div>
+                        </div>
+                        <div class="burger_menu">
+                            <h6 class="burger_menu-title">Общее</h6>
+                            <img src="./img/Object_arrow.svg" alt="" class="burger_menu-arrow">
+                        </div>
+                        <ul class="burger_list">
+                            <li class="burger_list-item"><a href="./general.html#anchor_1" class="burger_list-link">Постановка на учет НВОС</a></li>
+                            <li class="burger_list-item"><a href="./general.html#anchor_2" class="burger_list-link">Декларация о негативном воздействии на окружающую среду</a></li>
+                            <li class="burger_list-item"><a href="./general.html#anchor_3" class="burger_list-link">Программа производственного экологического контроля</a></li>
+                            <li class="burger_list-item"><a href="./general.html#anchor_4" class="burger_list-link">Документация по категориям НВОС</a></li>
+                        </ul>
+                        <div class="burger_menu">
+                            <h6 class="burger_menu-title">Воздух</h6>
+                            <img src="./img/Object_arrow.svg" alt="" class="burger_menu-arrow">
+                        </div>
+                        <ul class="burger_list">
+                            <li class="burger_list-item"><a href="./air.html#anchor_1" class="burger_list-link">Инвентаризация выбросов</a></li>
+                            <li class="burger_list-item"><a href="./air.html#anchor_2" class="burger_list-link">Мероприятий при НМУ</a></li>
+                        </ul>
+                        <div class="burger_menu">
+                            <h6 class="burger_menu-title">Вода</h6>
+                            <img src="./img/Object_arrow.svg" alt="" class="burger_menu-arrow">
+                        </div>
+                        <ul class="burger_list">
+                            <li class="burger_list-item"><a href="./water.html#anchor_1" class="burger_list-link">Точка сброса (предварительное согласование сброса)</a></li>
+                            <li class="burger_list-item"><a href="./water.html#anchor_2" class="burger_list-link">Программа регулярных наблюдений за водным объектом</a></li>
+                            <li class="burger_list-item"><a href="./water.html#anchor_3" class="burger_list-link">Решение о предоставлении водного объекта в пользование</a></li>
+                            <li class="burger_list-item"><a href="./water.html#anchor_4" class="burger_list-link">Схема систем водопотребления и водоотведения</a></li>
+                            <li class="burger_list-item"><a href="./water.html#anchor_5" class="burger_list-link">Расчет нормативов допустимых сбросов</a></li>
+                            <li class="burger_list-item"><a href="./water.html#anchor_6" class="burger_list-link">Проект НДС в водные объекты</a></li>
+                            <li class="burger_list-item"><a href="./water.html#anchor_7" class="burger_list-link">Разрешение на сброс</a></li>
+                            <li class="burger_list-item"><a href="./water.html#anchor_8" class="burger_list-link">Договор водопользования</a></li>
+                        </ul>
+                        <div class="burger_menu">
+                            <h6 class="burger_menu-title">Недропользование</h6>
+                            <img src="./img/Object_arrow.svg" alt="" class="burger_menu-arrow">
+                        </div>
+                        <ul class="burger_list">
+                        </ul>
+                        <div class="burger_menu">
+                            <h6 class="burger_menu-title">Отходы</h6>
+                            <img src="./img/Object_arrow.svg" alt="" class="burger_menu-arrow">
+                        </div>
+                        <ul class="burger_list">
+                            <li class="burger_list-item"><a href="./waste.html#anchor_1" class="burger_list-link">Инвентаризация образования отходов</a></li>
+                            <li class="burger_list-item"><a href="./waste.html#anchor_2" class="burger_list-link">Паспортизация отходов</a></li>
+                            <li class="burger_list-item"><a href="./waste.html#anchor_3" class="burger_list-link">Расчет нормативов образования отходов</a></li>
+                            <li class="burger_list-item"><a href="./waste.html#anchor_4" class="burger_list-link">ПНООЛР</a></li>
+                        </ul>
+                    </div>
+                    <div class="burger_block">
+                        <div class="burger_item">
+                            <h5 class="burger_item-title">Контакты</h5>
+                            <div class="burger_item-hr"></div>
+                        </div>
+                        <div class="contacts-group burger_block-group">
+                            <img src="./img/phone-img.svg" alt="" class="contacts-img">
+                            <a href="tel: +78126001399" class="contacts-link">+7 812 600 13 99</a>
+                        </div>
+                        <div class="contacts-group burger_block-group">
+                            <img src="./img/email-img.svg" alt="" class="contacts-img">
+                            <a href="mailto:info@skema.ru" class="contacts-link">info@skema.ru</a>
+                        </div>
+                        <div class="contacts-group">
+                            <img src="./img/location-img.svg" alt="" class="contacts-img">
+                            <p class="contacts-link contacts_location">г. Санкт-Петербург, ул. Воскова 12, <br> лит. А, пом. 5Н, офис №1</p>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <div class="header_form">
+                <div class="container">
+                    <h1 class="header-title">Проектируем <br> инженерные сети и дороги</h1>
+                    <p class="header-text">Индивидуальные и комплексные услуги для непрофильных <br class="header-text_br"> бизнесменов, системных застройщиков и генподрядчиков</p>
+                    <div class="header_button-wrapper">
+                        <button class="header_button">Получить бесплатную консультацию</button>
+                    </div>
+                </div>
+            </div>
+            <div class="header_modal-form_wrapper">
+                <form class="header_modal-form">
+                    <h3 class="form-title">Мы вам перезвоним и проконсультируем бесплатно</h3>
+                    <input type="text" autocomplete="name" placeholder="Как вас зовут?" class="input form-name">
+                    <input type="text" autocomplete="tel" placeholder="+7" class="input form-phone">
+                    <input type="button" value="Перезвоните мне" class="form-btn">
+                    <img src="./img/form_close.svg" alt="Закрыть" class="form-close">
+                </form>
+            </div>
+            <div class="header_modal modal-1">
+                <div class="modal-wrapper">
+                    <div class="container">
+                        <div class="modal_info-wrapper">
+                            <div class="modal_info-block">
+                                <div class="theme_group">
+                                    <a href="./general.html" class="main_link-modal">Общее</a>
+                                    <a href="./general.html#anchor_1" class="theme_group-item">Постановка на учет НВОС</a>
+                                    <a href="./general.html#anchor_2" class="theme_group-item">Декларация о негативном воздействии на окружающую среду</a>
+                                    <a href="./general.html#anchor_3" class="theme_group-item">Программа производственного экологического контроля</a>
+                                    <a href="./general.html#anchor_4" class="theme_group-item">Документация по категориям НВОС</a>
+                                </div>
+                                <div class="theme_group">
+                                    <a href="./air.html" class="main_link-modal">Воздух</a>
+                                    <a href="./air.html#anchor_1" class="theme_group-item">Инвентаризация выбросов</a>
+                                    <a href="./air.html#anchor_2" class="theme_group-item">Мероприятий при НМУ</a>
+                                </div>
+                            </div>
+                            <div class="modal_info-block">
+                                <div class="theme_group">
+                                    <a href="./water.html" class="main_link-modal">Вода</a>
+                                    <a href="./water.html#anchor_1" class="theme_group-item">Точка сброса (предварительное согласование сброса)</a>
+                                    <a href="./water.html#anchor_2" class="theme_group-item">Программа регулярных наблюдений за водным объектом</a>
+                                    <a href="./water.html#anchor_3" class="theme_group-item">Решение о предоставлении водного объекта в пользование</a>
+                                    <a href="./water.html#anchor_4" class="theme_group-item">Схема систем водопотребления и водоотведения</a>
+                                    <a href="./water.html#anchor_5" class="theme_group-item">Расчет нормативов допустимых сбросов</a>
+                                    <a href="./water.html#anchor_6" class="theme_group-item">Проект НДС в водные объекты</a>
+                                    <a href="./water.html#anchor_7" class="theme_group-item">Разрешение на сброс</a>
+                                    <a href="./water.html#anchor_8" class="theme_group-item">Договор водопользования</a>
+                                </div>
+                            </div>
+                            <div class="modal_info-block">
+                                <div class="theme_group">
+                                    <a href="./subsoilUse.html" class="main_link-modal">Недропользование</a>
+                                </div>
+                                <div class="theme_group">
+                                    <a href="./waste.html" class="main_link-modal">Отходы</a>
+                                    <a href="./waste.html#anchor_1" class="theme_group-item">Инвентаризация образования отходов</a>
+                                    <a href="./waste.html#anchor_2" class="theme_group-item">Паспортизация отходов</a>
+                                    <a href="./waste.html#anchor_3" class="theme_group-item">Расчет нормативов образования отходов</a>
+                                    <a href="./waste.html#anchor_4" class="theme_group-item">ПНООЛР</a>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="close_arrow-wrapper">
+                            <a href="#" class="close_arrow close_arrow-1"></a>
+                        </div>
+                    </div>
+                </div>
+                <div class="header_modal-bg"></div>
+            </div>
+            <div class="header_modal modal-2">
+                <div class="modal-wrapper">
+                    <div class="container">
+                        <div class="modal_info-wrapper">
+                            <div class="modal_info-block">
+                                <div class="theme_group">
+                                    <a href="./building.html#anchor_2" class="main_link-modal">Строительство без посредников</a>
+                                </div>
+                            </div>
+                            <div class="modal_info-block">
+                                <div class="theme_group">
+                                    <a href="./building.html#anchor_3" class="main_link-modal">Поставка оборудования и материалов</a>
+                                </div>
+                            </div>
+                            <div class="modal_info-block">
+                                <div class="theme_group">
+                                </div>
+                            </div>
+                        </div>
+                        <div class="close_arrow-wrapper">
+                            <a href="#" class="close_arrow close_arrow-2"></a>
+                        </div>
+                    </div>
+                </div>
+                <div class="header_modal-bg"></div>
+            </div>
+            <div class="header_modal modal-3">
+                <div class="modal-wrapper">
+                    <div class="container">
+                        <div class="modal_info-wrapper">
+                            <div class="modal_info-block">
+                                <div class="theme_group">
+                                    <a href="./waterSupply.html" class="main_link-modal">Водоснабжение и Водоотведение</a>
+                                    <a href="./waterSupply.html#anchor-1" class="theme_group-item">Водоснабжение и водоотведения</a>
+                                    <a href="./waterSupply.html#anchor-2" class="theme_group-item">Противопожарное водоснабжение</a>
+                                    <a href="./waterSupply.html#anchor-3" class="theme_group-item">Очистные сооружения</a>
+                                    <a href="./waterSupply.html#anchor-4" class="theme_group-item">Канализационные – насосные станции</a>
+                                    <a href="./waterSupply.html#anchor-5" class="theme_group-item">Дренажные сети</a>
+                                    <a href="./waterSupply.html#anchor-6" class="theme_group-item">Узлы учета сточных вод</a>
+                                </div>
+                            </div>
+                            <div class="modal_info-block">
+                                <div class="theme_group">
+                                    <a href="./heating.html" class="main_link-modal">Тепловые сети</a>
+                                    <a href="#" class="theme_group-item">Наружные тепловые сети</a>
+                                    <a href="#" class="theme_group-item">Внутренние сети отопления</a>
+                                    <a href="#" class="theme_group-item">Индивидуальные тепловые пункты</a>
+                                    <a href="#" class="theme_group-item">Центральные тепловые пункты</a>
+                                    <a href="#" class="theme_group-item">Авторский надзор</a>
+                                </div>
+                            </div>
+                            <div class="modal_info-block">
+                                <div class="theme_group">
+                                    <a href="./electricity.html" class="main_link-modal">Электрические сети</a>
+                                    <a href="#" class="theme_group-item">Электрические сети</a>
+                                    <a href="#" class="theme_group-item">Наружное освещение</a>
+                                </div>
+                                <div class="theme_group">
+                                    <a href="./streetRoad.html" class="main_link-modal">Улично-дорожные сети</a>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="close_arrow-wrapper">
+                            <a href="#" class="close_arrow close_arrow-3"></a>
+                        </div>
+                    </div>
+                </div>
+                <div class="header_modal-bg"></div>
+            </div>
+            <div class="preloader-wrapper">
+                <div class="preloader">
+                    <img src="./img/preloader_1.svg" alt="" class="preloader-img preloader-img_2">
+                    <div class="preloader-img_animate-wrapper">
+                        <div class="preloader-img_animate">
+                            <img src="./img/preloader_2.svg" alt="" class="preloader-img_2">
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </header>
+    <main class="main">
+        <div id="companyAbout" class="company_about">
+            <div class="container company_about-container">
+                <div class="vertical_line vertical_line-1"></div>
+                <div class="vertical_line vertical_line-2"></div>
+                <div class="vertical_line vertical_line-3"></div>
+                <div class="vertical_line vertical_line-4"></div>
+                <div class="vertical_line vertical_line-5"></div>
+                <div class="vertical_line vertical_line-6"></div>
+                <nav class="page_nav">
+                    <a href="#companyAbout" class="page_nav-link page_nav-link_active nav-item">О компании</a>
+                    <a href="#projectTypes" class="page_nav-link nav-item">Виды работ</a>
+                    <a href="#objects" class="page_nav-link nav-item">Объекты</a>
+                    <a href="#licenses" class="page_nav-link nav-item">Лицензии</a>
+                    <a href="#clients" class="page_nav-link nav-item">Клиенты</a>
+                    <a href="#contacts" class="page_nav-link nav-item">Контакты</a>
+                </nav>
+                <div class="company_about-info">
+                    <div class="company_about-success company_about-success_block company_about-block block-active block-active_0">
+                        <div class="company_about-main">
+                            <span class="company_about-number">9</span>
+                            <h2 class="company_about-title">лет успешной <br> работы</h2>
+                        </div>
+                        <p class="company_about-text">Мы — «СКЕМА Инжиниринг», помогаем специалистам и предпринимателям построить улично-дорожные сети, с учётом всех требований и разрешений.</p>
+                    </div>
+                    <div class="company_about-workers company_about-block block-unactive block-active_1">
+                        <div class="company_about-success">
+                            <div class="company_about-main">
+                                <span class="company_about-number">30</span>
+                                <h2 class="company_about-title">специалистов <br> в штате</h2>
+                            </div>
+                            <p class="company_about-text">Всё это возможно благодаря команде менеджеров проектов, инженеров, архитекторов, конструкторов, технологов и специалистов по согласованиям.</p>
+                        </div>
+                    </div>
+                    <div class="company_about-projects company_about-block block-unactive block-active_2">
+                        <div class="company_about-success">
+                            <div class="company_about-main">
+                                <span class="company_about-number company_about-number-special">300</span>
+                                <h2 class="company_about-title">реализованных <br> проектов</h2>
+                            </div>
+                            <p class="company_about-text">За плечами множество проектов по всей территории России, связанных с промышленной, складской, торговой, офисной и жилой недвижимостью.</p>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <nav class="page_nav-2">
+            <div class="container page_nav">
+                <a href="#companyAbout" class="page_nav-link_2 nav-item">О компании</a>
+                <a href="#projectTypes" class="page_nav-link_2 nav-item_1 nav-item">Виды работ</a>
+                <a href="#objects" class="page_nav-link_2 nav-item_2 nav-item">Объекты</a>
+                <a href="#licenses" class="page_nav-link_2 nav-item_3 nav-item">Лицензии</a>
+                <a href="#clients" class="page_nav-link_2 nav-item_4 nav-item">Клиенты</a>
+                <a href="#contacts" class="page_nav-link_2 nav-item_5 nav-item">Контакты</a>
+            </div>
+        </nav>
+        <div id="projectTypes" class="project_types">
+            <div class="container lines_bg-parent">
+                <div class="doing_project">
+                    <div class="info_block animate__fadeInLeft wow">
+                        <div class="horisontal_line"></div>
+                        <h3 class="info_block-title"><span class="info_block-title_special">Проектируем</span> <br> для решения задач</h3>
+                        <p class="info_block-text">Учитываем множество факторов перед разработкой проекта, анализируем имеющиеся ограничения и создаем подходящий для реализации вариант.</p>
+                        <a href="./waterSupply.html" class="more_link">
+                            <div class="more_link-animate_figure"></div>
+                            <span class="more_link-text">Подробнее</span>
+                            <img src="./img/More-arrow.svg" alt="Стрелочка" class="more_link-arrow">
+                        </a>
+                    </div>
+                    <div class="visual_block">
+                        <a href="./waterSupply.html" class="visual_element-wrapper visual_element-1 animate__fadeInDown wow">
+                            <div class="visual_element">
+                                <h4 class="visual_element-title">Водоснабжение и водоотведение</h4>
+                                <img src="./img/Visual_decoration.svg" alt="" class="visual_element-decoration">
+                            </div>
+                        </a>
+                        <a href="./heating.html" class="visual_element-wrapper visual_element-2 animate__fadeInTopRight wow">
+                            <div class="visual_element">
+                                <h4 class="visual_element-title">Тепловые <br> сети</h4>
+                                <img src="./img/Visual_decoration.svg" alt="" class="visual_element-decoration">
+                            </div>
+                        </a>
+                        <a href="./electricity.html" class="visual_element-wrapper visual_element-3 visual_element-bottom animate__fadeInUp wow">
+                            <div class="visual_element">
+                                <h4 class="visual_element-title">Электрические сети</h4>
+                                <img src="./img/Visual_decoration.svg" alt="" class="visual_element-decoration">
+                            </div>
+                        </a>
+                        <a href="./streetRoad.html" class="visual_element-wrapper visual_element-4 visual_element-bottom animate__fadeInBottomRight wow">
+                            <div class="visual_element">
+                                <h4 class="visual_element-title">Улично- <br> дорожные сети</h4>
+                                <img src="./img/Visual_decoration.svg" alt="" class="visual_element-decoration">
+                            </div>
+                        </a>
+                    </div>
+                </div>
+                <div class="building">
+                    <div class="visual_block building_block animate__fadeInLeft wow">
+                        <img src="./img/Building.jpg" alt="Строительство" class="visual_block-img">
+                        <div class="image-shadow"></div>
+                    </div>
+                    <div class="info_block animate__fadeInRight wow">
+                        <div class="horisontal_line"></div>
+                        <h3 class="info_block-title"><span class="info_block-title_special">Строим</span> <br> без посредников</h3>
+                        <p class="info_block-text">После создания проектного плана мы можем воплотить его в реальности своими рабочими, материалом от производителя и парком из 25 единиц спецтехники. Выполняем работы в срок и даём на них гарантию.</p>
+                        <a href="./building.html" class="more_link">
+                            <div class="more_link-animate_figure"></div>
+                            <span class="more_link-text">Подробнее</span>
+                            <img src="./img/More-arrow.svg" alt="Стрелочка" class="more_link-arrow">
+                        </a>
+                    </div>
+                </div>
+                <div class="agreement">
+                    <div class="info_block agreement-info_block animate__fadeInLeft wow">
+                        <div class="horisontal_line"></div>
+                        <h3 class="info_block-title"><span class="info_block-title_special">Согласовываем</span> <br> все работы</h3>
+                        <p class="info_block-text">Берём на себя вопросы по согласованию регулирующих органов, которые необходимо решить для ввода объекта в эксплутацию. Вы будете в курсе происходящего на всех этапах: от сбора разрешительной документации до ввода объекта в эксплуатацию. Для вас не будет каких-либо забот.</p>
+                        <a href="./general.html" class="more_link">
+                            <div class="more_link-animate_figure"></div>
+                            <span class="more_link-text">Подробнее</span>
+                            <img src="./img/More-arrow.svg" alt="Стрелочка" class="more_link-arrow">
+                        </a>
+                    </div>
+                    <div class="visual_block agreement_block animate__fadeInRight wow">
+                        <img src="./img/Agreement.jpg" alt="Строительство" class="visual_block-img">
+                        <div class="image-shadow image-shadow_agreement"></div>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <div id="objects" class="object animate__fadeIn wow">
+            <div class="container">
+                <h3 class="object-title">Объекты</h3>
+                <div class="objects">
+                    <a href="./objects/object_1.html" class="object_item">
+                        <div class="object_img-group">
+                            <img src="./img/Object_img-1.jpg" alt="" class="object_img">
+                            <span class="object_num">1 проект</span>
+                        </div>
+                        <span class="object_subtitle">ООО ЛСР. Недвижимость <br> Северо-Запад</span>
+                    </a>
+                    <a href="./objects/object_2.html" class="object_item">
+                        <div class="object_img-group">
+                            <img src="./img/Object_img-2.jpg" alt="" class="object_img">
+                            <span class="object_num">27 проектов</span>
+                        </div>
+                        <span class="object_subtitle">ООО «Сэтл Сити» — УДС</span>
+                    </a>
+                    <a href="./objects/object_3.html" class="object_item">
+                        <div class="object_img-group">
+                            <img src="./img/Object_img-3.jpg" alt="" class="object_img">
+                            <span class="object_num">12 проектов</span>
+                        </div>
+                        <span class="object_subtitle">ООО «Сэтл Сити» — Сети</span>
+                    </a>
+                    <a href="./objects/object_4.html" class="object_item">
+                        <div class="object_img-group">
+                            <img src="./img/Object_img-4.jpg" alt="" class="object_img">
+                            <span class="object_num">1 проект</span>
+                        </div>
+                        <span class="object_subtitle">ООО «Архитектурная ассоциация Андрея Литвинова»</span>
+                    </a>
+                    <a href="./objects/object_5.html" class="object_item">
+                        <div class="object_img-group">
+                            <img src="./img/Object_img-5.jpg" alt="" class="object_img">
+                            <span class="object_num">2 проекта</span>
+                        </div>
+                        <span class="object_subtitle">Санкт-Петербургское ГКУ <br> «Управление заказчика» ТКК</span>
+                    </a>
+                    <a href="./objects/object_6.html" class="object_item">
+                        <div class="object_img-group">
+                            <img src="./img/Object_img-6.jpg" alt="" class="object_img">
+                            <span class="object_num">4 проекта</span>
+                        </div>
+                        <span class="object_subtitle">ООО Спектрум Холдинг</span>
+                    </a>
+                    <a href="./objects/object_7.html" class="object_item">
+                        <div class="object_img-group">
+                            <img src="./img/Object_img-7.jpg" alt="" class="object_img">
+                            <span class="object_num">10 проектов</span>
+                        </div>
+                        <span class="object_subtitle">ФГБУЗ «Клиническая больница №122 им. Л.Г. Соколова Федерального медико-биологического агентства»</span>
+                    </a>
+                    <a href="./objects/object_8.html" class="object_item">
+                        <div class="object_img-group">
+                            <img src="./img/Object_img-8.jpg" alt="" class="object_img">
+                            <span class="object_num">10 проектов</span>
+                        </div>
+                        <span class="object_subtitle">Санкт-Петербургское ГКУ <br> «Управление заказчика» ТС</span>
+                    </a>
+                    <a href="./objects/object_9.html" class="object_item">
+                        <div class="object_img-group">
+                            <img src="./img/Object_img-9.jpg" alt="" class="object_img">
+                            <span class="object_num">1 проект</span>
+                        </div>
+                        <span class="object_subtitle">Акционерное общество <br> «ЭкспоФорум»</span>
+                    </a>
+                </div>
+            </div>
+        </div>
+        <div id="licenses" class="license">
+            <div class="container license-container">
+                <div class="info_block license_info">
+                    <div class="horisontal_line"></div>
+                    <h3 class="info_block-title license_info-title"><span class="info_block-title_special">Лицензии</span></h3>
+                    <p class="license_info-text">Мы придерживаемся высочайших стандартов качества обслуживания.</p>
+                    <div class="slider_button-wrapper">
+                        <button class="slider_button slider_button-left slick-prev" type="button" data-role="none" aria-label="Previous" role="button">
+                            <svg width="20" height="11" viewBox="0 0 20 11" fill="none" xmlns="http://www.w3.org/2000/svg" class="slider_arrow slider_arrow-left">
+                                <path d="M19 1L10 10L1 0.999998" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"/>
+                            </svg>
+                        </button>
+                        <button class="slider_button slider_button-active slick-next" type="button" data-role="none" aria-label="Next" role="button">
+                            <svg width="20" height="11" viewBox="0 0 20 11" fill="none" xmlns="http://www.w3.org/2000/svg" class="slider_arrow slider_arrow-right slider_arrow-active">
+                                <path d="M19 1L10 10L1 0.999998" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"/>
+                            </svg>
+                        </button>
+                    </div>
+                </div>
+                <div class="slider_items">
+                    <div>
+                        <div class="slider_item">
+                            <img src="./img/slider_img-1.jpg" alt="Фото лицензии" class="slider_item-image_special">
+                            <div class="slider_item-description">
+                                <p class="description-text">Федеральная служба по гидрометеорологии и мониторингу окружающей среды</p>
+                                <a href="./documents/license1.pdf" target="_blank" class="description_link">
+                                    <span class="description_link-text">Просмотреть</span>
+                                    <img src="./img/slider_description-img.svg" alt="" class="description_link-img">
+                                </a>
+                            </div>
+                        </div>
+                    </div>
+                    <div>
+                        <div class="slider_item">
+                            <img src="./img/slider_img-2.jpg" alt="Фото лицензии" class="slider_item-image">
+                            <div class="slider_item-description">
+                                <p class="description-text">Комитет по государственному контролю, использованию и охране памятников истории и культуры</p>
+                                <a href="./documents/license2.pdf" target="_blank" class="description_link">
+                                    <span class="description_link-text">Просмотреть</span>
+                                    <img src="./img/slider_description-img.svg" alt="" class="description_link-img">
+                                </a>
+                            </div>
+                        </div>
+                    </div>
+                    <div>
+                        <div class="slider_item">
+                            <img src="./img/slider_img-3.jpg" alt="Фото лицензии" width="268px" height="360px" class="slider_item-image_special">
+                            <div class="slider_item-description">
+                                <p class="description-text">Комитет по государственному контролю, использованию и охране памятников истории и культуры</p>
+                                <a href="./documents/license3.pdf" target="_blank" class="description_link">
+                                    <span class="description_link-text">Просмотреть</span>
+                                    <img src="./img/slider_description-img.svg" alt="" class="description_link-img">
+                                </a>
+                            </div>
+                        </div>
+                    </div>
+                    <div>
+                        <div class="slider_item">
+                            <img src="./img/slider_img-4.jpg" alt="Фото лицензии" width="268px" height="360px" class="slider_item-image_special">
+                            <div class="slider_item-description">
+                                <p class="description-text">Федеральная служба по гидрометеорологии и мониторингу окружающей среды</p>
+                                <a href="./documents/license4.pdf" target="_blank" class="description_link">
+                                    <span class="description_link-text">Просмотреть</span>
+                                    <img src="./img/slider_description-img.svg" alt="" class="description_link-img">
+                                </a>
+                            </div>
+                        </div>
+                    </div>
+                    <div>
+                        <div class="slider_item">
+                            <img src="./img/slider_img-5.jpg" alt="Фото лицензии" width="268px" height="360px" class="slider_item-image_special">
+                            <div class="slider_item-description">
+                                <p class="description-text">Комитет по государственному контролю, использованию и охране памятников истории и культуры</p>
+                                <a href="./documents/license5.pdf" target="_blank" class="description_link">
+                                    <span class="description_link-text">Просмотреть</span>
+                                    <img src="./img/slider_description-img.svg" alt="" class="description_link-img">
+                                </a>
+                            </div>
+                        </div>
+                    </div>
+                    <div>
+                        <div class="slider_item">
+                            <img src="./img/slider_img-6.jpg" alt="Фото лицензии" width="268px" height="360px" class="slider_item-image_special">
+                            <div class="slider_item-description">
+                                <p class="description-text">Комитет по государственному контролю, использованию и охране памятников истории и культуры</p>
+                                <a href="./documents/license6.pdf" target="_blank" class="description_link">
+                                    <span class="description_link-text">Просмотреть</span>
+                                    <img src="./img/slider_description-img.svg" alt="" class="description_link-img">
+                                </a>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <div class="slider_line-wrapper container">
+                <div class="slider_line-up">
+                    <div class="slider_line-bottom"></div>
+                </div>
+            </div>
+        </div>
+        <div id="clients" class="clients">
+            <h3 class="clients-title">Наши клиенты</h3>
+            <div class="clients_animation">
+                <marquee class="clients_animation-line" scrolldelay="60" behavior="alternate">
+                    <img src="./img/clients_logo-1.svg" alt="Логотип Роснефть" class="clients_logo">
+                    <img src="./img/clients_logo-2.svg" alt="Логотип ЛСР" class="clients_logo">
+                    <img src="./img/clients_logo-3.svg" alt="Логотип РОЦМЗ" class="clients_logo">
+                    <img src="./img/clients_logo-1.svg" alt="Логотип Роснефть" class="clients_logo">
+                    <img src="./img/clients_logo-2.svg" alt="Логотип ЛСР" class="clients_logo">
+                    <img src="./img/clients_logo-3.svg" alt="Логотип РОЦМЗ" class="clients_logo">
+                    <img src="./img/clients_logo-1.svg" alt="Логотип Роснефть" class="clients_logo">
+                    <img src="./img/clients_logo-2.svg" alt="Логотип ЛСР" class="clients_logo">
+                    <img src="./img/clients_logo-3.svg" alt="Логотип РОЦМЗ" class="clients_logo clients_logo-last">
+                </marquee>
+                <marquee class="clients_animation-line" scrolldelay="60" behavior="alternate" direction="right">
+                    <img src="./img/clients_logo-4.png" alt="Логотип ФМБА России" class="clients_logo">
+                    <img src="./img/clients_logo-5.svg" alt="Логотип строительной компании Петрострой" class="clients_logo">
+                    <img src="./img/clients_logo-6.svg" alt="Логотип ПикСода" class="clients_logo">
+                    <img src="./img/clients_logo-4.png" alt="Логотип ФМБА России" class="clients_logo">
+                    <img src="./img/clients_logo-5.svg" alt="Логотип строительной компании Петрострой" class="clients_logo">
+                    <img src="./img/clients_logo-6.svg" alt="Логотип ПикСода" class="clients_logo">
+                    <img src="./img/clients_logo-4.png" alt="Логотип ФМБА России" class="clients_logo">
+                    <img src="./img/clients_logo-5.svg" alt="Логотип строительной компании Петрострой" class="clients_logo">
+                    <img src="./img/clients_logo-6.svg" alt="Логотип ПикСода" class="clients_logo-last">
+                </marquee>
+                <marquee class="clients_animation-line" scrolldelay="60" behavior="alternate">
+                    <img src="./img/clients_logo-7.svg" alt="Логотип A plus development" class="clients_logo">
+                    <img src="./img/clients_logo-8.svg" alt="Логотип Бонава" class="clients_logo">
+                    <img src="./img/clients_logo-9.svg" alt="Логотип ВСМПО АВИСМА" class="clients_logo">
+                    <img src="./img/clients_logo-7.svg" alt="Логотип A plus development" class="clients_logo">
+                    <img src="./img/clients_logo-8.svg" alt="Логотип Бонава" class="clients_logo">
+                    <img src="./img/clients_logo-9.svg" alt="Логотип ВСМПО АВИСМА" class="clients_logo">
+                    <img src="./img/clients_logo-7.svg" alt="Логотип A plus development" class="clients_logo">
+                    <img src="./img/clients_logo-8.svg" alt="Логотип Бонава" class="clients_logo">
+                    <img src="./img/clients_logo-9.svg" alt="Логотип ВСМПО АВИСМА" class="clients_logo-last">
+                </marquee>
+                <marquee class="clients_animation-line" scrolldelay="60" behavior="alternate" direction="right">
+                    <img src="./img/clients_logo-10.svg" alt="Логотип YIT" class="clients_logo">
+                    <img src="./img/clients_logo-11.svg" alt="Логотип SetlGroup" class="clients_logo">
+                    <img src="./img/clients_logo-12.svg" alt="Логотип ФРАНКЕ" class="clients_logo">
+                    <img src="./img/clients_logo-10.svg" alt="Логотип YIT" class="clients_logo">
+                    <img src="./img/clients_logo-11.svg" alt="Логотип SetlGroup" class="clients_logo">
+                    <img src="./img/clients_logo-12.svg" alt="Логотип ФРАНКЕ" class="clients_logo">
+                    <img src="./img/clients_logo-10.svg" alt="Логотип YIT" class="clients_logo">
+                    <img src="./img/clients_logo-11.svg" alt="Логотип SetlGroup" class="clients_logo">
+                    <img src="./img/clients_logo-12.svg" alt="Логотип ФРАНКЕ" class="clients_logo-last">
+                </marquee>
+                <!-- <marquee class="clients_animation-line">
+                    <img src="" alt="" class="clients_logo">
+                    <img src="" alt="" class="clients_logo">
+                    <img src="" alt="" class="clients_logo">
+                </marquee> -->
+            </div>
+        </div>
+        <div id="contacts" class="contacts">
+            <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d998.7140499154599!2d30.304737160663645!3d59.958221955495745!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x46963146b97dc8ef%3A0x5cec7806ae3c60ca!2z0YPQuy4g0JLQvtGB0LrQvtCy0LAsIDEyLCDQodCw0L3QutGCLdCf0LXRgtC10YDQsdGD0YDQsywg0KDQvtGB0YHQuNGPLCAxOTcxOTg!5e0!3m2!1sru!2sua!4v1597332428911!5m2!1sru!2sua" width="600" height="450" frameborder="0" style="border:0;" allowfullscreen="" aria-hidden="false" tabindex="0" class="contacts-map"></iframe>
+            <div class="contacts_form-wrapper">
+                <form class="contacts_form">
+                    <div class="horisontal_line horisontal_line-contacts"></div>
+                    <h3 class="contacts-title">Контакты</h3>
+                    <div class="contacts-group">
+                        <img src="./img/phone-img.svg" alt="" class="contacts-img">
+                        <a href="tel: +78126001399" class="contacts-link">+7 812 600 13 99</a>
+                    </div>
+                    <div class="contacts-group">
+                        <img src="./img/email-img.svg" alt="" class="contacts-img">
+                        <a href="mailto:info@skema.ru" class="contacts-link">info@skema.ru</a>
+                    </div>
+                    <div class="contacts-group">
+                        <img src="./img/location-img.svg" alt="" class="contacts-img">
+                        <p class="contacts-link contacts_location">г. Санкт-Петербург, ул. Воскова 12, <br> лит. А, пом. 5Н, офис №1</p>
+                    </div>
+                    <div class="contacts_button-wrapper">
+                        <button class="contacts_button">Заказать звонок</button>
+                    </div>
+                </form>
+            </div>
+        </div>
+    </main>
+    <footer class="footer">
+        <div class="container">
+            <div class="footer_nav-wrapper">
+                <div class="footer_logo-wrapper">
+                    <a href="./index.html" class="header-logo footer_logo">
+                        <img src="./img/footer_logo.svg" alt="Логотип СКЕМА" class="footer_logo-img">
+                    </a>
+                    <p class="footer_logo-text">© 2020 ООО “СКЕМА <br class="footer_logo-br"> Инжиниринг”</p>
+                </div>
+                <nav class="footer_nav responsive_nav-activator">
+                    <h4 class="footer_nav-title">Проектирование</h4>
+                    <svg class="responsive_nav-img" width="20" height="11" viewBox="0 0 20 11" fill="none" xmlns="http://www.w3.org/2000/svg">
+                        <path d="M19 1L10 10L1 0.999998" stroke="#6C7690" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"/>
+                    </svg>
+                    <a href="./waterSupply.html" class="footer_nav-link">Водоснабжение <br> и водоотведение</a>
+                    <a href="./heating.html" class="footer_nav-link">Тепловые сети</a>
+                    <a href="./electricity.html" class="footer_nav-link">Электрические сети</a>
+                    <a href="./streetRoad.html" class="footer_nav-link">Улично-дорожные сети</a>
+                </nav>
+                <ul class="responsive_nav-list">
+                    <li class="responsive_nav-item"><a href="./waterSupply.html" class="responsive_nav-link">Водоснабжение и водоотведение</a></li>
+                    <li class="responsive_nav-item"><a href="./heating.html" class="responsive_nav-link">Тепловые сети</a></li>
+                    <li class="responsive_nav-item"><a href="./electricity.html" class="responsive_nav-link">Электрические сети</a></li>
+                    <li class="responsive_nav-item"><a href="./streetRoad.html" class="responsive_nav-link">Улично-дорожные сети</a></li>
+                </ul>
+                <hr class="footer_nav-hr">
+                <nav class="footer_nav responsive_nav-activator">
+                    <h4 class="footer_nav-title">Строительство</h4>
+                    <svg class="responsive_nav-img" width="20" height="11" viewBox="0 0 20 11" fill="none" xmlns="http://www.w3.org/2000/svg">
+                        <path d="M19 1L10 10L1 0.999998" stroke="#6C7690" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"/>
+                    </svg>
+                    <a href="#" class="footer_nav-link">Этапы запуска <br> строительных работ</a>
+                    <a href="#" class="footer_nav-link">Гарантия на работы</a>
+                    <a href="#" class="footer_nav-link">Объекты</a>
+                </nav>
+                <ul class="responsive_nav-list">
+                    <li class="responsive_nav-item"><a href="#" class="responsive_nav-link">Этапы запуска строительных работ</a></li>
+                    <li class="responsive_nav-item"><a href="#" class="responsive_nav-link">Гарантия на работы</a></li>
+                    <li class="responsive_nav-item"><a href="#" class="responsive_nav-link">Объекты</a></li>
+                </ul>
+                <hr class="footer_nav-hr">
+                <nav class="footer_nav responsive_nav-activator">
+                    <h4 class="footer_nav-title">Согласование</h4>
+                    <svg class="responsive_nav-img" width="20" height="11" viewBox="0 0 20 11" fill="none" xmlns="http://www.w3.org/2000/svg">
+                        <path d="M19 1L10 10L1 0.999998" stroke="#6C7690" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"/>
+                    </svg>
+                    <a href="#" class="footer_nav-link">Правила подачи документов</a>
+                    <a href="#" class="footer_nav-link">Новости компании</a>
+                    <a href="#" class="footer_nav-link">Реквизиты для оплаты</a>
+                </nav>
+                <ul class="responsive_nav-list">
+                    <li class="responsive_nav-item"><a href="#" class="responsive_nav-link">Правила подачи документов</a></li>
+                    <li class="responsive_nav-item"><a href="#" class="responsive_nav-link">Новости компании</a></li>
+                    <li class="responsive_nav-item"><a href="#" class="responsive_nav-link">Реквизиты для оплаты</a></li>
+                </ul>
+                <hr class="footer_nav-hr">
+            </div>
+            <nav class="footer_nav-add">
+                <a href="#" class="footer_nav-add-link">Политика конфиденциальности</a>
+            </nav>
+        </div>
+    </footer>
+
+<script src="./js/burgerMenu.js"></script>
+<script src="./js/headerModal.js"></script>
+<script src="./js/responsiveNav.js"></script>
+<script src="./js/headerForm.js"></script>
+<script src="./js/wow.min.js"></script>
+<script>new WOW().init();</script>
+<script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.3.1/jquery.min.js"></script>
+<script src="https://cdnjs.cloudflare.com/ajax/libs/slick-carousel/1.6.0/slick.min.js"></script>
+<script src="./js/preloader.js"></script>
+<script src="./js/stickyMenu.js"></script>
+<script src="./js/licenseSlider.js"></script>
+<script src="./js/licenseArrows.js"></script>
+<script src="./js/licenseSliderLine.js"></script>
+<script src="./js/companyAboutSlider.js"></script>
+</body>
+</html>
