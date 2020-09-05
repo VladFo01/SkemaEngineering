@@ -11,7 +11,17 @@
     <link rel="shortcut icon" href="./img/favicon.svg" type="image/svg">
     <title>СКЕМА - Проектируем инженерные сети и дороги</title>
 </head>
-<body>
+<body class="lock">
+    <div class="preloader-wrapper">
+        <div class="preloader">
+            <img src="./img/preloader_1.svg" alt="" class="preloader-img preloader-img_2">
+            <div class="preloader-img_animate-wrapper">
+                <div class="preloader-img_animate">
+                    <img src="./img/preloader_2.svg" alt="" class="preloader-img_2">
+                </div>
+            </div>
+        </div>
+    </div>
     <header class="header header-general header_streetRoad">
         <div class="header_bg header_bg-general">
             <div class="header_main-wrapper">
@@ -63,9 +73,8 @@
                             <img src="./img/Object_arrow.svg" alt="" class="burger_menu-arrow">
                         </div>
                         <ul class="burger_list">
-                            <li class="burger_list-item"><a href="#" class="burger_list-link">Электрические сети</a></li>
-                            <li class="burger_list-item"><a href="#" class="burger_list-link">Наружное освещение</a></li>
-                            <li class="burger_list-item"><a href="#" class="burger_list-link">Очистные сооружения</a></li>
+                            <li class="burger_list-item"><a href="./electricity.html#anchor_1" class="burger_list-link">Электрические сети</a></li>
+                            <li class="burger_list-item"><a href="./electricity.html#anchor_2" class="burger_list-link">Спектр наших услуг по проектированию</a></li>
                         </ul>
                         <div class="burger_menu">
                             <h6 class="burger_menu-title">Улично-дорожные сети</h6>
@@ -80,16 +89,12 @@
                             <div class="burger_item-hr"></div>
                         </div>
                         <div class="burger_menu">
-                            <h6 class="burger_menu-title">Строительство без посредников</h6>
+                            <h6 class="burger_menu-title">Строительство инженерных сетей</h6>
                             <img src="./img/Object_arrow.svg" alt="" class="burger_menu-arrow">
                         </div>
                         <ul class="burger_list">
-                        </ul>
-                        <div class="burger_menu">
-                            <h6 class="burger_menu-title">Поставка оборудования и материалов</h6>
-                            <img src="./img/Object_arrow.svg" alt="" class="burger_menu-arrow">
-                        </div>
-                        <ul class="burger_list">
+                            <li class="burger_list-item"><a href="./building.html#anchor_1" class="burger_list-link">Строительство инженерных сетей</a></li>
+                            <li class="burger_list-item"><a href="./building.html#anchor_2" class="burger_list-link">Строительство без посредников</a></li>
                         </ul>
                     </div>
                     <div class="burger_block">
@@ -178,6 +183,15 @@
                     </div>
                     <hr class="header-general_hr">
                 </div>
+            </div>
+            <div class="header_modal-form_wrapper">
+                <form class="header_modal-form">
+                    <h3 class="form-title">Мы вам перезвоним и проконсультируем бесплатно</h3>
+                    <input type="text" autocomplete="name" placeholder="Как вас зовут?" class="input form-name">
+                    <input type="tel" autocomplete="tel" placeholder="+7" class="input form-phone">
+                    <input type="button" value="Перезвоните мне" class="form-btn">
+                    <img src="./img/form_close.svg" alt="Закрыть" class="form-close">
+                </form>
             </div>
             <div class="header_modal modal-1">
               <div class="modal-wrapper">
@@ -284,8 +298,8 @@
                           <div class="modal_info-block">
                               <div class="theme_group">
                                   <a href="./electricity.html" class="main_link-modal">Электрические сети, наружное <br> освещение, слаботочные системы</a>
-                                  <a href="#" class="theme_group-item">Электрические сети</a>
-                                  <a href="#" class="theme_group-item">Наружное освещение</a>
+                                  <a href="./electricity.html#anchor_1" class="theme_group-item">Электрические сети</a>
+                                    <a href="./electricity.html#anchor_2" class="theme_group-item">Спектр наших услуг по проектированию</a>
                               </div>
                               <div class="theme_group">
                                   <a href="./streetRoad.html" class="main_link-modal">Улично-дорожные сети</a>
@@ -304,27 +318,27 @@
     <main class="main">
         <div class="container">
             <div class="main_info">
-                <div class="main_info-block">
+                <div id="anchor_1" class="main_info-block">
                     <nav class="main_info-nav">
                         <a href="#anchor_1" class="anchor_link anchor_link-active anchor_link-first">Улично-дорожная сеть</a>
                         <a href="#anchor_2" class="anchor_link">Этапы процесса разработки</a>
                         <a href="#anchor_3" class="anchor_link">Структура проекта развития улично-дорожной сети</a>
                     </nav>
                     <div class="main_info-text">
-                        <h3 id="anchor_1" class="main_info-title main_info-title_first">Улично-дорожная сеть</h3>
+                        <h3 class="main_info-title main_info-title_first">Улично-дорожная сеть</h3>
                         <p class="main_info-paragraph main_info-paragraph-bold">Проектирование дорог представляет собой сложный комплекс изыскательных работ, в которые входят не только проектно-конструкторские расчёты, но и расчётно-экономические.</p>
                         <p class="main_info-paragraph">Первоначально проводятся всесторонние исследования целевой местности. Таким образом, изыскание и проектирование автомобильных дорог неразрывно связаны между собой, ведь местность должна обладать соответствующими техногенными, климатическими и геологическими условиями. Разработка проекта и непосредственно комплекс строительных работ определяются и регулируются нормативно-правовой документацией. При этом нормы проектирования автомобильных дорог подразумевают кроме создания дороги ещё и комплекс дополнительных сооружений, разработку плана коммуникаций, лесонасаждений и т.д.</p>
                         <p class="main_info-paragraph">Необходимо определить технические параметры, подсчитать оптимальное количество строительных материалов, привлечь соответствующее количество спецтехники и рабочих, установить этапы и сроки строительства, рассчитать сроки окупаемости всех средств, затраченных во время строительства. Выполнить все работы необходимо не только в кратчайшие сроки, но и максимально правильно – допущения нескольких малейших ошибок вполне достаточно, чтобы сроки строительства были сорваны, а сами дороги вышли из строя за считанные месяцы.</p>
                     </div>
                 </div>
-                <div class="main_info-block">
+                <div id="anchor_2" class="main_info-block">
                     <nav class="main_info-nav">
                         <a href="#anchor_1" class="anchor_link anchor_link-first">Улично-дорожная сеть</a>
                         <a href="#anchor_2" class="anchor_link anchor_link-active">Этапы процесса разработки</a>
                         <a href="#anchor_3" class="anchor_link">Структура проекта развития улично-дорожной сети</a>
                     </nav>
                     <div class="main_info-text">
-                        <h3 id="anchor_2" class="main_info-title">Этапы процесса разработки</h3>
+                        <h3 class="main_info-title">Этапы процесса разработки</h3>
                         <ol class="num_list num_list-special">
                             <li class="num_list-item list-item"><span class="list-item_text" style="font-weight: normal;">Выбор схемы на проектирование в зависимости от источника водоснабжения и задач клиента. В качестве источника могут выступать городские сети централизованного водоснабжения, артезианские скважины, водоемы открытого или закрытого типа. </span></li>
                             <li class="num_list-item list-item"><span class="list-item_text" style="font-weight: normal;">Определение технических условий для подключения к источникам водоснабжения, водоотведения.</span></li>
@@ -336,14 +350,14 @@
                         </ol>
                     </div>
                 </div>
-                <div class="main_info-block">
+                <div id="anchor_3" class="main_info-block">
                     <nav class="main_info-nav">
                         <a href="#anchor_1" class="anchor_link anchor_link-first">Улично-дорожная сеть</a>
                         <a href="#anchor_2" class="anchor_link">Этапы процесса разработки</a>
                         <a href="#anchor_3" class="anchor_link anchor_link-active">Структура проекта развития улично-дорожной сети</a>
                     </nav>
                     <div class="main_info-text">
-                        <h3 id="anchor_3" class="main_info-title main_info-title_first">Структура проекта развития улично-дорожной сети</h3>
+                        <h3 class="main_info-title main_info-title_first">Структура проекта развития улично-дорожной сети</h3>
                         <ol class="num_list">
                             <li class="num_list-item list-item"><span class="list-item_text" style="font-weight: normal;">Пояснительная записка — сжатое описание задачи и ее реализации</span></li>
                             <li class="num_list-item list-item"><span class="list-item_text" style="font-weight: normal;">Определение полосы отвода</span></li>
@@ -465,8 +479,11 @@
         </div>
     </footer>
 
+<script src="./js/headerForm.js"></script>
 <script src="./js/burgerMenu.js"></script>
 <script src="./js/headerModal.js"></script>
 <script src="./js/responsiveNav.js"></script>
+<script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.3.1/jquery.min.js"></script>
+<script src="./js/preloader.js"></script>
 </body>
 </html>

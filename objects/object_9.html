@@ -11,7 +11,17 @@
     <link rel="shortcut icon" href="../img/favicon.svg" type="image/svg">
     <title>СКЕМА - Проектируем инженерные сети и дороги</title>
 </head>
-<body>
+<body class="lock">
+    <div class="preloader-wrapper">
+        <div class="preloader">
+            <img src="../img/preloader_1.svg" alt="" class="preloader-img preloader-img_2">
+            <div class="preloader-img_animate-wrapper">
+                <div class="preloader-img_animate">
+                    <img src="../img/preloader_2.svg" alt="" class="preloader-img_2">
+                </div>
+            </div>
+        </div>
+    </div>
     <header class="header header-general header_object-9">
         <div class="header_bg header_bg-object">
             <div class="header_main-wrapper">
@@ -40,13 +50,13 @@
                     <img src="../img/Object_arrow.svg" alt="" class="burger_menu-arrow">
                   </div>
                   <ul class="burger_list">
-                    <li class="burger_list-item"><a href="#" class="burger_list-link">Водоснабжение и водоотведения</a></li>
-                    <li class="burger_list-item"><a href="#" class="burger_list-link">Противопожарное водоснабжение</a></li>
-                    <li class="burger_list-item"><a href="#" class="burger_list-link">Очистные сооружения</a></li>
-                    <li class="burger_list-item"><a href="#" class="burger_list-link">Канализационные – насосные станции</a></li>
-                    <li class="burger_list-item"><a href="#" class="burger_list-link">Дренажные сети</a></li>
-                    <li class="burger_list-item"><a href="#" class="burger_list-link">Узлы учета сточных вод</a></li>
-                  </ul>
+                            <li class="burger_list-item"><a href="../waterSupply.html#anchor-1" class="burger_list-link">Водоснабжение и водоотведения</a></li>
+                            <li class="burger_list-item"><a href="../waterSupply.html#anchor-2" class="burger_list-link">Противопожарное водоснабжение</a></li>
+                            <li class="burger_list-item"><a href="../waterSupply.html#anchor-3" class="burger_list-link">Очистные сооружения</a></li>
+                            <li class="burger_list-item"><a href="../waterSupply.html#anchor-4" class="burger_list-link">Канализационные – насосные станции</a></li>
+                            <li class="burger_list-item"><a href="../waterSupply.html#anchor-5" class="burger_list-link">Дренажные сети</a></li>
+                            <li class="burger_list-item"><a href="../waterSupply.html#anchor-6" class="burger_list-link">Узлы учета сточных вод</a></li>
+                        </ul>
                   <div class="burger_menu">
                     <h6 class="burger_menu-title">Тепловые сети</h6>
                     <img src="../img/Object_arrow.svg" alt="" class="burger_menu-arrow">
@@ -63,9 +73,8 @@
                     <img src="../img/Object_arrow.svg" alt="" class="burger_menu-arrow">
                   </div>
                   <ul class="burger_list">
-                    <li class="burger_list-item"><a href="#" class="burger_list-link">Электрические сети</a></li>
-                    <li class="burger_list-item"><a href="#" class="burger_list-link">Наружное освещение</a></li>
-                    <li class="burger_list-item"><a href="#" class="burger_list-link">Очистные сооружения</a></li>
+                    <li class="burger_list-item"><a href="../electricity.html#anchor_1" class="burger_list-link">Электрические сети</a></li>
+                    <li class="burger_list-item"><a href="../electricity.html#anchor_2" class="burger_list-link">Спектр наших услуг по проектированию</a></li>
                   </ul>
                   <div class="burger_menu">
                     <h6 class="burger_menu-title">Улично-дорожные сети</h6>
@@ -75,22 +84,18 @@
                   </ul>
                 </div>
                 <div class="burger_block">
-                    <div class="burger_item">
-                      <h5 class="burger_item-title">Строительство</h5>
-                      <div class="burger_item-hr"></div>
-                    </div>
-                    <div class="burger_menu">
-                      <h6 class="burger_menu-title">Строительство без посредников</h6>
-                      <img src="../img/Object_arrow.svg" alt="" class="burger_menu-arrow">
-                    </div>
-                    <ul class="burger_list">
-                    </ul>
-                    <div class="burger_menu">
-                      <h6 class="burger_menu-title">Поставка оборудования и материалов</h6>
-                      <img src="../img/Object_arrow.svg" alt="" class="burger_menu-arrow">
-                    </div>
-                    <ul class="burger_list">
-                    </ul>
+                  <div class="burger_item">
+                    <h5 class="burger_item-title">Строительство</h5>
+                    <div class="burger_item-hr"></div>
+                  </div>
+                  <div class="burger_menu">
+                    <h6 class="burger_menu-title">Строительство инженерных сетей</h6>
+                    <img src="../img/Object_arrow.svg" alt="" class="burger_menu-arrow">
+                  </div>
+                  <ul class="burger_list">
+                    <li class="burger_list-item"><a href="../building.html#anchor_1" class="burger_list-link">Строительство инженерных сетей</a></li>
+                    <li class="burger_list-item"><a href="../building.html#anchor_2" class="burger_list-link">Строительство без посредников</a></li>
+                  </ul>
                 </div>
                 <div class="burger_block">
                     <div class="burger_item">
@@ -171,7 +176,16 @@
               <h2 class="nav-main nav-main_object">Акционерное общество <br> «ЭкспоФорум»</h2>
             </div>
           </div>
-          <div class="header_modal modal-1">
+          <div class="header_modal-form_wrapper">
+                <form class="header_modal-form">
+                    <h3 class="form-title">Мы вам перезвоним и проконсультируем бесплатно</h3>
+                    <input type="text" autocomplete="name" placeholder="Как вас зовут?" class="input form-name">
+                    <input type="tel" autocomplete="tel" placeholder="+7" class="input form-phone">
+                    <input type="button" value="Перезвоните мне" class="form-btn">
+                    <img src="../img/form_close.svg" alt="Закрыть" class="form-close">
+                </form>
+            </div>
+            <div class="header_modal modal-1">
               <div class="modal-wrapper">
                   <div class="container">
                       <div class="modal_info-wrapper">
@@ -276,8 +290,8 @@
                           <div class="modal_info-block">
                               <div class="theme_group">
                                   <a href="../electricity.html" class="main_link-modal">Электрические сети, наружное <br> освещение, слаботочные системы</a>
-                                  <a href="#" class="theme_group-item">Электрические сети</a>
-                                  <a href="#" class="theme_group-item">Наружное освещение</a>
+                                  <a href="../electricity.html#anchor_1" class="theme_group-item">Электрические сети</a>
+                                    <a href="../electricity.html#anchor_2" class="theme_group-item">Спектр наших услуг по проектированию</a>
                               </div>
                               <div class="theme_group">
                                   <a href="../streetRoad.html" class="main_link-modal">Улично-дорожные сети</a>
@@ -362,10 +376,10 @@
                     <svg class="responsive_nav-img" width="20" height="11" viewBox="0 0 20 11" fill="none" xmlns="http://www.w3.org/2000/svg">
                         <path d="M19 1L10 10L1 0.999998" stroke="#6C7690" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"/>
                     </svg>
-                    <a href="./building.html" class="footer_nav-link">Строительство <br> инженерных сетей</a>
+                    <a href="../building.html" class="footer_nav-link">Строительство <br> инженерных сетей</a>
                 </nav>
                 <ul class="responsive_nav-list">
-                    <li class="responsive_nav-item"><a href="./building.html" class="responsive_nav-link">Строительство инженерных сетей</a></li>
+                    <li class="responsive_nav-item"><a href="../building.html" class="responsive_nav-link">Строительство инженерных сетей</a></li>
                 </ul>
                 <hr class="footer_nav-hr">
                 <nav class="footer_nav responsive_nav-activator">
@@ -373,18 +387,18 @@
                     <svg class="responsive_nav-img" width="20" height="11" viewBox="0 0 20 11" fill="none" xmlns="http://www.w3.org/2000/svg">
                         <path d="M19 1L10 10L1 0.999998" stroke="#6C7690" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"/>
                     </svg>
-                    <a href="./general.html" class="footer_nav-link">Общее</a>
-                    <a href="./air.html" class="footer_nav-link">Воздух</a>
-                    <a href="./water.html" class="footer_nav-link">Вода</a>
-                    <a href="./subsoilUse.html" class="footer_nav-link">Недропользование</a>
-                    <a href="./waste.html" class="footer_nav-link">Отходы</a>
+                    <a href="../general.html" class="footer_nav-link">Общее</a>
+                    <a href="../air.html" class="footer_nav-link">Воздух</a>
+                    <a href="../water.html" class="footer_nav-link">Вода</a>
+                    <a href="../subsoilUse.html" class="footer_nav-link">Недропользование</a>
+                    <a href="../waste.html" class="footer_nav-link">Отходы</a>
                 </nav>
                 <ul class="responsive_nav-list">
-                    <li class="responsive_nav-item"><a href="./general.html" class="responsive_nav-link">Общее</a></li>
-                    <li class="responsive_nav-item"><a href="./air.html" class="responsive_nav-link">Воздух</a></li>
-                    <li class="responsive_nav-item"><a href="./water.html" class="responsive_nav-link">Вода</a></li>
-                    <li class="responsive_nav-item"><a href="./subsoilUse.html" class="responsive_nav-link">Недропользование</a></li>
-                    <li class="responsive_nav-item"><a href="./waste.html" class="responsive_nav-link">Отходы</a></li>
+                    <li class="responsive_nav-item"><a href="../general.html" class="responsive_nav-link">Общее</a></li>
+                    <li class="responsive_nav-item"><a href="../air.html" class="responsive_nav-link">Воздух</a></li>
+                    <li class="responsive_nav-item"><a href="../water.html" class="responsive_nav-link">Вода</a></li>
+                    <li class="responsive_nav-item"><a href="../subsoilUse.html" class="responsive_nav-link">Недропользование</a></li>
+                    <li class="responsive_nav-item"><a href="../waste.html" class="responsive_nav-link">Отходы</a></li>
                 </ul>
                 <hr class="footer_nav-hr">
             </div>
@@ -397,5 +411,7 @@
 <script src="../js/burgerMenu.js"></script>
 <script src="../js/headerModal.js"></script>
 <script src="../js/responsiveNav.js"></script>
+<script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.3.1/jquery.min.js"></script>
+<script src="../js/preloader.js"></script>
 </body>
 </html>

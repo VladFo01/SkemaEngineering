@@ -228,7 +228,7 @@ body{
         position: fixed;
         top: 0;
         left: 0;
-        z-index: 100;
+        z-index: 1100;
         min-width: 100vw;
         min-height: 100vh;
         &-active{
@@ -470,7 +470,6 @@ body{
   background-repeat: no-repeat;
   background-attachment: fixed;
   animation: background_slides 2s ease-in-out 0.8s infinite;
-  z-index: -1;
   &-info{
     margin-top: 150px;
   }
@@ -579,7 +578,6 @@ body{
 .project_types{
   padding-top: 120px;
   padding-bottom: 225px;
-  background-color: #fff;
 }
 .lines_bg-parent{
   background-image: url(../img/lines_bg.svg);
@@ -850,7 +848,6 @@ body{
 }
 .object{
   padding-bottom: 120px;
-  background-color: #fff;
   &-title{
     font-family: 'Roboto Condensed', sans-serif;
     font-weight: bold;
@@ -2148,6 +2145,13 @@ body{
   }
   .company_about-success{
     padding: 0;
+  }
+  .company_about{
+    min-height: auto;
+    padding-bottom: 0;
+    &-last{
+      padding-bottom: 100px;
+    }
   }
 }
 @media(max-width: 480px){

@@ -11,7 +11,17 @@
     <link rel="shortcut icon" href="./img/favicon.svg" type="image/svg">
     <title>СКЕМА - Проектируем инженерные сети и дороги</title>
 </head>
-<body>
+<body class="lock">
+    <div class="preloader-wrapper">
+        <div class="preloader">
+            <img src="./img/preloader_1.svg" alt="" class="preloader-img preloader-img_2">
+            <div class="preloader-img_animate-wrapper">
+                <div class="preloader-img_animate">
+                    <img src="./img/preloader_2.svg" alt="" class="preloader-img_2">
+                </div>
+            </div>
+        </div>
+    </div>
     <header class="header header-general header-waterSupply">
         <div class="header_bg header_bg-general">
             <div class="header_main-wrapper">
@@ -63,9 +73,8 @@
                             <img src="./img/Object_arrow.svg" alt="" class="burger_menu-arrow">
                         </div>
                         <ul class="burger_list">
-                            <li class="burger_list-item"><a href="#" class="burger_list-link">Электрические сети</a></li>
-                            <li class="burger_list-item"><a href="#" class="burger_list-link">Наружное освещение</a></li>
-                            <li class="burger_list-item"><a href="#" class="burger_list-link">Очистные сооружения</a></li>
+                            <li class="burger_list-item"><a href="./electricity.html#anchor_1" class="burger_list-link">Электрические сети</a></li>
+                            <li class="burger_list-item"><a href="./electricity.html#anchor_2" class="burger_list-link">Спектр наших услуг по проектированию</a></li>
                         </ul>
                         <div class="burger_menu">
                             <h6 class="burger_menu-title">Улично-дорожные сети</h6>
@@ -80,16 +89,12 @@
                             <div class="burger_item-hr"></div>
                         </div>
                         <div class="burger_menu">
-                            <h6 class="burger_menu-title">Строительство без посредников</h6>
+                            <h6 class="burger_menu-title">Строительство инженерных сетей</h6>
                             <img src="./img/Object_arrow.svg" alt="" class="burger_menu-arrow">
                         </div>
                         <ul class="burger_list">
-                        </ul>
-                        <div class="burger_menu">
-                            <h6 class="burger_menu-title">Поставка оборудования и материалов</h6>
-                            <img src="./img/Object_arrow.svg" alt="" class="burger_menu-arrow">
-                        </div>
-                        <ul class="burger_list">
+                            <li class="burger_list-item"><a href="./building.html#anchor_1" class="burger_list-link">Строительство инженерных сетей</a></li>
+                            <li class="burger_list-item"><a href="./building.html#anchor_2" class="burger_list-link">Строительство без посредников</a></li>
                         </ul>
                     </div>
                     <div class="burger_block">
@@ -178,6 +183,15 @@
                     </div>
                     <hr class="header-general_hr">
                 </div>
+            </div>
+            <div class="header_modal-form_wrapper">
+                <form class="header_modal-form">
+                    <h3 class="form-title">Мы вам перезвоним и проконсультируем бесплатно</h3>
+                    <input type="text" autocomplete="name" placeholder="Как вас зовут?" class="input form-name">
+                    <input type="tel" autocomplete="tel" placeholder="+7" class="input form-phone">
+                    <input type="button" value="Перезвоните мне" class="form-btn">
+                    <img src="./img/form_close.svg" alt="Закрыть" class="form-close">
+                </form>
             </div>
             <div class="header_modal modal-1">
               <div class="modal-wrapper">
@@ -284,8 +298,8 @@
                           <div class="modal_info-block">
                               <div class="theme_group">
                                   <a href="./electricity.html" class="main_link-modal">Электрические сети, наружное <br> освещение, слаботочные системы</a>
-                                  <a href="#" class="theme_group-item">Электрические сети</a>
-                                  <a href="#" class="theme_group-item">Наружное освещение</a>
+                                  <a href="./electricity.html#anchor_1" class="theme_group-item">Электрические сети</a>
+                                    <a href="./electricity.html#anchor_2" class="theme_group-item">Спектр наших услуг по проектированию</a>
                               </div>
                               <div class="theme_group">
                                   <a href="./streetRoad.html" class="main_link-modal">Улично-дорожные сети</a>
@@ -304,14 +318,14 @@
     <main class="main">
         <div class="container">
             <div class="main_info">
-                <div class="main_info-block">
+                <div id="anchor_1" class="main_info-block">
                     <nav class="main_info-nav">
                         <a href="#anchor_1" class="anchor_link anchor_link-active anchor_link-first">Водоснабжение</a>
                         <a href="#anchor_2" class="anchor_link">Водоотведение</a>
                         <a href="#anchor_3" class="anchor_link">Спектр наших услуг по проектированию</a>
                     </nav>
                     <div class="main_info-text">
-                        <h3 id="anchor_1" class="main_info-title main_info-title_first">Водоснабжение</h3>
+                        <h3 class="main_info-title main_info-title_first">Водоснабжение</h3>
                         <p class="main_info-paragraph main_info-paragraph-bold">Водопровод представляет собой сложную систему сооружений, напорных и самотечных сетей, предназначенную для забора воды из источников водоснабжения, доведения ее качества до соответствия определенным нормативам и подачи водопотребителю.</p>
                         <p class="main_info-paragraph">Этапы разработки проекта водоснабжения:</p>
                         <ol class="num_list">
@@ -325,14 +339,14 @@
                         </ol>
                     </div>
                 </div>
-                <div class="main_info-block">
+                <div id="anchor_2" class="main_info-block">
                     <nav class="main_info-nav">
                         <a href="#anchor_1" class="anchor_link anchor_link-first">Водоснабжение</a>
                         <a href="#anchor_2" class="anchor_link anchor_link-active">Водоотведение</a>
                         <a href="#anchor_3" class="anchor_link">Спектр наших услуг по проектированию</a>
                     </nav>
                     <div class="main_info-text">
-                        <h3 id="anchor_2" class="main_info-title">Водоотведение</h3>
+                        <h3 class="main_info-title">Водоотведение</h3>
                         <p class="main_info-paragraph main_info-paragraph-bold">Водоотводная система — обязательный элемент инженерных коммуникаций любого объекта. Она представляет собой комплекс сетей, оборудования и специальных сооружений, обеспечивающая сбор и транспортировку сточных вод за пределы объекта.</p>
                         <p class="main_info-paragraph">Этапы разработки проекта водоотведения:</p>
                         <ol class="num_list">
@@ -344,14 +358,14 @@
                         </ol>
                     </div>
                 </div>
-                <div class="main_info-block">
+                <div id="anchor_3" class="main_info-block">
                     <nav class="main_info-nav">
                         <a href="#anchor_1" class="anchor_link anchor_link-first">Водоснабжение</a>
                         <a href="#anchor_2" class="anchor_link">Водоотведение</a>
                         <a href="#anchor_3" class="anchor_link anchor_link-active">Спектр наших услуг по проектированию</a>
                     </nav>
                     <div class="main_info-text">
-                        <h3 id="anchor_3" class="main_info-title main_info-title_first">Спектр наших услуг по проектированию</h3>
+                        <h3 class="main_info-title main_info-title_first">Спектр наших услуг по проектированию</h3>
                         <span id="anchor-1" class="main_info-subtitle">Водоснабжение и водоотведение</span>
                         <ul class="unmarked_list">
                             <li class="unmarked_list-item list-item  list-item_circle"><span class="list-item_text">Проектирование и расчет внутренних сетей водопровода и канализации жилых и общественных зданий.</span></li>
@@ -484,8 +498,11 @@
         </div>
     </footer>
 
+<script src="./js/headerForm.js"></script>
 <script src="./js/burgerMenu.js"></script>
 <script src="./js/headerModal.js"></script>
 <script src="./js/responsiveNav.js"></script>
+<script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.3.1/jquery.min.js"></script>
+<script src="./js/preloader.js"></script>
 </body>
 </html>

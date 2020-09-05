@@ -11,7 +11,17 @@
     <link rel="shortcut icon" href="./img/favicon.svg" type="image/svg">
     <title>СКЕМА - Проектируем инженерные сети и дороги</title>
 </head>
-<body>
+<body class="lock">
+    <div class="preloader-wrapper">
+        <div class="preloader">
+            <img src="./img/preloader_1.svg" alt="" class="preloader-img preloader-img_2">
+            <div class="preloader-img_animate-wrapper">
+                <div class="preloader-img_animate">
+                    <img src="./img/preloader_2.svg" alt="" class="preloader-img_2">
+                </div>
+            </div>
+        </div>
+    </div>
     <header class="header header-general header-building">
         <div class="header_bg header_bg-building">
             <div class="header_main-wrapper">
@@ -63,9 +73,8 @@
                             <img src="./img/Object_arrow.svg" alt="" class="burger_menu-arrow">
                         </div>
                         <ul class="burger_list">
-                            <li class="burger_list-item"><a href="#" class="burger_list-link">Электрические сети</a></li>
-                            <li class="burger_list-item"><a href="#" class="burger_list-link">Наружное освещение</a></li>
-                            <li class="burger_list-item"><a href="#" class="burger_list-link">Очистные сооружения</a></li>
+                            <li class="burger_list-item"><a href="./electricity.html#anchor_1" class="burger_list-link">Электрические сети</a></li>
+                            <li class="burger_list-item"><a href="./electricity.html#anchor_2" class="burger_list-link">Спектр наших услуг по проектированию</a></li>
                         </ul>
                         <div class="burger_menu">
                             <h6 class="burger_menu-title">Улично-дорожные сети</h6>
@@ -80,16 +89,12 @@
                             <div class="burger_item-hr"></div>
                         </div>
                         <div class="burger_menu">
-                            <h6 class="burger_menu-title">Строительство без посредников</h6>
+                            <h6 class="burger_menu-title">Строительство инженерных сетей</h6>
                             <img src="./img/Object_arrow.svg" alt="" class="burger_menu-arrow">
                         </div>
                         <ul class="burger_list">
-                        </ul>
-                        <div class="burger_menu">
-                            <h6 class="burger_menu-title">Поставка оборудования и материалов</h6>
-                            <img src="./img/Object_arrow.svg" alt="" class="burger_menu-arrow">
-                        </div>
-                        <ul class="burger_list">
+                            <li class="burger_list-item"><a href="./building.html#anchor_1" class="burger_list-link">Строительство инженерных сетей</a></li>
+                            <li class="burger_list-item"><a href="./building.html#anchor_2" class="burger_list-link">Строительство без посредников</a></li>
                         </ul>
                     </div>
                     <div class="burger_block">
@@ -172,6 +177,15 @@
                         <h2 class="nav-main">Строительство инженерных сетей</h2>
                     </div>
                 </div>
+            </div>
+            <div class="header_modal-form_wrapper">
+                <form class="header_modal-form">
+                    <h3 class="form-title">Мы вам перезвоним и проконсультируем бесплатно</h3>
+                    <input type="text" autocomplete="name" placeholder="Как вас зовут?" class="input form-name">
+                    <input type="tel" autocomplete="tel" placeholder="+7" class="input form-phone">
+                    <input type="button" value="Перезвоните мне" class="form-btn">
+                    <img src="./img/form_close.svg" alt="Закрыть" class="form-close">
+                </form>
             </div>
             <div class="header_modal modal-1">
               <div class="modal-wrapper">
@@ -278,8 +292,8 @@
                           <div class="modal_info-block">
                               <div class="theme_group">
                                   <a href="./electricity.html" class="main_link-modal">Электрические сети, наружное <br> освещение, слаботочные системы</a>
-                                  <a href="#" class="theme_group-item">Электрические сети</a>
-                                  <a href="#" class="theme_group-item">Наружное освещение</a>
+                                  <a href="./electricity.html#anchor_1" class="theme_group-item">Электрические сети</a>
+                                    <a href="./electricity.html#anchor_2" class="theme_group-item">Спектр наших услуг по проектированию</a>
                               </div>
                               <div class="theme_group">
                                   <a href="./streetRoad.html" class="main_link-modal">Улично-дорожные сети</a>
@@ -298,27 +312,27 @@
     <main class="main">
         <div class="container">
             <div class="main_info">
-                <div class="main_info-block">
+                <div  id="anchor_1" class="main_info-block">
                     <nav class="main_info-nav">
                         <a href="#anchor_1" class="anchor_link anchor_link-active anchor_link-first">Строительство инженерных сетей</a>
                         <a href="#anchor_2" class="anchor_link">Строительство без посредников</a>
                         <a href="#anchor_3" class="anchor_link">Поставка оборудования и материалов</a>
                     </nav>
                     <div class="main_info-text">
-                        <h3 id="anchor_1" class="main_info-title main_info-title_first">Строительство инженерных сетей</h3>
+                        <h3 class="main_info-title main_info-title_first">Строительство инженерных сетей</h3>
                         <p class="main_info-paragraph main_info-paragraph-bold">Строительство инженерных сетей — необходимое направление нашей работы для сдачи спроектированных объектов в намеченные сроки и поддержания всех высоких стандартов выполнения. Строим инженерные сети любой сложности и прокладываем коммуникации в Санкт-Петербурге и Ленобласти</p>
                         <p class="main_info-paragraph">Наша компания проектирует и возводит системы жизнеобеспечения для малых и больших предприятий, крупных жилых и коммерческий объектов. Штатные специалисты прокладывают наружные и внутренние сети, а затем подключают коммуникации к городским системам.</p>
                         <p class="main_info-paragraph">Есть все необходимые разрешения для работ и многолетний опыт сотрудничества с контролирующими органами.</p>
                     </div>
                 </div>
-                <div class="main_info-block">
+                <div id="anchor_2" class="main_info-block">
                     <nav class="main_info-nav">
                         <a href="#anchor_1" class="anchor_link anchor_link-first">Строительство инженерных сетей</a>
                         <a href="#anchor_2" class="anchor_link anchor_link-active">Строительство без посредников</a>
                         <a href="#anchor_3" class="anchor_link">Поставка оборудования и материалов</a>
                     </nav>
                     <div class="main_info-text">
-                        <h3 id="anchor_2" class="main_info-title">Строительство без посредников</h3>
+                        <h3 class="main_info-title">Строительство без посредников</h3>
                         <p class="main_info-paragraph">В «СКЕМА-Инжиниринг» мы предлагаем полный перечень работ по строительству различных инженерных коммуникаций, их пусконаладке с последующим техобслуживанием. Занимаемся прокладкой наружных и внутренних сетей всех типов, также предлагаем следующие услуги:</p>
                         <span class="main_info-subtitle">Монтаж водоснабжения</span>
                         <p class="main_info-paragraph" style="padding-left: 20px; margin-top: 20px;">Здание будет подключено к городскому трубопроводу, проводятся гидравлические и пневматические испытания.</p>
@@ -330,14 +344,14 @@
                         <span class="main_info-subtitle" style="margin-top: 20px;">Благоустройство</span>
                     </div>
                 </div>
-                <div class="main_info-block">
+                <div id="anchor_3" class="main_info-block">
                     <nav class="main_info-nav">
                         <a href="#anchor_1" class="anchor_link anchor_link-first">Строительство инженерных сетей</a>
                         <a href="#anchor_2" class="anchor_link">Строительство без посредников</a>
                         <a href="#anchor_3" class="anchor_link anchor_link-active">Поставка оборудования и материалов</a>
                     </nav>
                     <div class="main_info-text">
-                        <h3 id="anchor_3" class="main_info-title main_info-title_first">Поставка оборудования и материалов</h3>
+                        <h3 class="main_info-title main_info-title_first">Поставка оборудования и материалов</h3>
                         <p class="main_info-paragraph">Прямые контракты и дилерские условия от ведущих производителей и поставщиков в категории «цена-качество»:</p>
                         <ul class="unmarked_list">
                             <li class="unmarked_list-item list-item list-item_circle"><span class="list-item_text">Нерудных материалов (песок, щебень, гравий)</span></li>
@@ -440,8 +454,11 @@
         </div>
     </footer>
 
+<script src="./js/headerForm.js"></script>
 <script src="./js/burgerMenu.js"></script>
 <script src="./js/headerModal.js"></script>
 <script src="./js/responsiveNav.js"></script>
+<script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.3.1/jquery.min.js"></script>
+<script src="./js/preloader.js"></script>
 </body>
 </html>
