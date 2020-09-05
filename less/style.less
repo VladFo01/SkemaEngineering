@@ -86,7 +86,7 @@ body{
 }
 
 .header{
-  background-image: url(../img/header-bg.jpg);
+  background-image: url('../img/header-bg.jpg');
   min-height: 100vh;
   background-repeat: no-repeat;
   background-size: cover;
@@ -189,6 +189,7 @@ body{
     color: #0086EF;
     padding: 19px 41px;
     border: none;
+    background-color: #fff;
     cursor: pointer;
     transition: all 0.5s;
     &-wrapper{
@@ -198,7 +199,7 @@ body{
     }
     &:hover{
       color: #FFFFFF;
-      background: #0086EF;
+      background-color: #0086EF;
     }
   }
   &_modal{
@@ -1231,31 +1232,31 @@ body{
     background-size: contain;
     min-height: auto;
     &-1{
-      background-image: url(../img/object_bg-1.jpg);
+      background-image: url(../img/Object_bg-1.jpg);
     }
     &-2{
-      background-image: url(../img/object_bg-2.jpg);
+      background-image: url(../img/Object_bg-2.jpg);
     }
     &-3{
-      background-image: url(../img/object_bg-3.jpg);
+      background-image: url(../img/Object_bg-3.jpg);
     }
     &-4{
-      background-image: url(../img/object_bg-4.jpg);
+      background-image: url(../img/Object_bg-4.jpg);
     }
     &-5{
-      background-image: url(../img/object_bg-5.jpg);
+      background-image: url(../img/Object_bg-5.jpg);
     }
     &-6{
-      background-image: url(../img/object_bg-6.jpg);
+      background-image: url(../img/Object_bg-6.jpg);
     }
     &-7{
-      background-image: url(../img/object_bg-7.jpg);
+      background-image: url(../img/Object_bg-7.jpg);
     }
     &-8{
-      background-image: url(../img/object_bg-8.jpg);
+      background-image: url(../img/Object_bg-8.jpg);
     }
     &-9{
-      background-image: url(../img/object_bg-9.jpg);
+      background-image: url(../img/Object_bg-9.jpg);
     }
     &-main{
       margin: 210px 0;
@@ -2152,6 +2153,9 @@ body{
     &-last{
       padding-bottom: 100px;
     }
+  }
+  .header{
+    overflow-y: scroll;
   }
 }
 @media(max-width: 480px){
