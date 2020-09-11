@@ -53,7 +53,7 @@ $(document).ready(function () {
     //     document.querySelectorAll('.space')[0].classList.remove('space-on');
     //   }
     // }
-    if(navMenu[0].getBoundingClientRect().top <= document.documentElement.clientHeight/2-navMenu[0].getBoundingClientRect().height/2+160){
+    if(navMenu[0].getBoundingClientRect().top <= document.documentElement.clientHeight/2){
       navMenu[0].classList.add("main_info-nav_fixed");
       document.querySelectorAll('.space')[0].classList.add('space-on');
       document.querySelectorAll('.space')[0].classList.remove('space-off');
