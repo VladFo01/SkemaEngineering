@@ -1,7 +1,7 @@
 $(document).ready(function () {
   if($('body').width() > 970){
     const navMenu = document.querySelectorAll('.main_info-nav');
-  const menuLink = document.querySelectorAll('.anchor_link');
+    const menuLink = document.querySelectorAll('.anchor_link');
 
   for(let i=0; i<navMenu.length; i++){
     if(i !== 0){
@@ -41,14 +41,26 @@ $(document).ready(function () {
     for(let i=0; i<document.querySelectorAll('.main_info-block').length; i++){
       scrollFunc(document.querySelector(`#anchor_${i+1}`), menuLink[i]);
     }
-    for(let i=0; i<navMenu.length; i++){
-      if(menuLink[i].classList.contains('anchor_link-active')){
-        navMenu[0].classList.add("main_info-nav_fixed");
-        document.querySelectorAll('.space')[0].classList.add('space-on');
-        document.querySelectorAll('.space')[0].classList.remove('space-off');
-        break;
-      } else {
-        navMenu[0].classList.remove("main_info-nav_fixed");
+    // for(let i=0; i<navMenu.length; i++){
+    //   if(menuLink[i].classList.contains('anchor_link-active')){
+    //     navMenu[0].classList.add("main_info-nav_fixed");
+    //     document.querySelectorAll('.space')[0].classList.add('space-on');
+    //     document.querySelectorAll('.space')[0].classList.remove('space-off');
+    //     break;
+    //   } else {
+    //     navMenu[0].classList.remove("main_info-nav_fixed");
+    //     document.querySelectorAll('.space')[0].classList.add('space-off');
+    //     document.querySelectorAll('.space')[0].classList.remove('space-on');
+    //   }
+    // }
+    if(navMenu[0].getBoundingClientRect().top <= document.documentElement.clientHeight/2-navMenu[0].getBoundingClientRect().height/2+160){
+      navMenu[0].classList.add("main_info-nav_fixed");
+      document.querySelectorAll('.space')[0].classList.add('space-on');
+      document.querySelectorAll('.space')[0].classList.remove('space-off');
+    }
+    if(window.pageYOffset + navMenu[0].getBoundingClientRect().top <= window.pageYOffset + document.querySelector(`#anchor_1`).getBoundingClientRect().top+80){
+      if(navMenu[0].classList.contains('main_info-nav_fixed')){
+        navMenu[0].classList.remove('main_info-nav_fixed');
         document.querySelectorAll('.space')[0].classList.add('space-off');
         document.querySelectorAll('.space')[0].classList.remove('space-on');
       }
