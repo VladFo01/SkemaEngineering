@@ -53,14 +53,30 @@ $(document).ready(function () {
         document.querySelectorAll('.space')[0].classList.remove('space-on');
       }
     }
-    if(window.pageYOffset + document.documentElement.clientHeight >= window.pageYOffset + navMenu[navMenu.length-1].getBoundingClientRect().bottom+200){
-      navMenu[0].classList.add("main_info-nav_disappear");
+    // if(window.pageYOffset + document.documentElement.clientHeight >= window.pageYOffset + navMenu[navMenu.length-1].getBoundingClientRect().bottom+200){
+    //   navMenu[0].classList.add("main_info-nav_disappear");
+    //   navMenu[navMenu.length-1].classList.remove('main_info-nav_disappear');
+    //   document.querySelectorAll('.space')[1].classList.add('space-off');
+    //   document.querySelectorAll('.space')[1].classList.remove('space-on');
+    //   navMenu[navMenu.length-1].style.opacity = '1';
+    // } else {
+    //   navMenu[0].classList.remove("main_info-nav_disappear");
+    //   // navMenu[navMenu.length-1].classList.add('main_info-nav_disappear');
+    //   // navMenu[navMenu.length-1].classList.add('space-off');
+    //   navMenu[navMenu.length-1].style.opacity = '0';
+    //   document.querySelectorAll('.space')[1].classList.add('space-on');
+    //   document.querySelectorAll('.space')[1].classList.remove('space-off');
+    // }
+    if(window.pageYOffset + navMenu[0].getBoundingClientRect().bottom > window.pageYOffset + navMenu[navMenu.length-1].getBoundingClientRect().bottom){
+      // navMenu[0].classList.add("main_info-nav_disappear");
+      navMenu[0].style.opacity = '0';
       navMenu[navMenu.length-1].classList.remove('main_info-nav_disappear');
       document.querySelectorAll('.space')[1].classList.add('space-off');
       document.querySelectorAll('.space')[1].classList.remove('space-on');
       navMenu[navMenu.length-1].style.opacity = '1';
     } else {
-      navMenu[0].classList.remove("main_info-nav_disappear");
+      // navMenu[0].classList.remove("main_info-nav_disappear");
+      navMenu[0].style.opacity = '1';
       // navMenu[navMenu.length-1].classList.add('main_info-nav_disappear');
       // navMenu[navMenu.length-1].classList.add('space-off');
       navMenu[navMenu.length-1].style.opacity = '0';
