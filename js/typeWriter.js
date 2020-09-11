@@ -3,7 +3,6 @@ var mess=new Array(
   "Строим ",
   "Согласовуем ");
  
- var size = 32;
  var txtcol = "#fff";
  var lastcol = "#C0C0C0";
  var pause = 1500;
@@ -14,7 +13,7 @@ var mess=new Array(
  function get_text() {
   msgpre = mess[i].substring(0, i_str-1);
   msgafter = mess[i].substring(i_str-1, i_str);
-  msg = "<span style='position: relative; color:" + txtcol + ";'>" + msgpre + "<span style='color:" + lastcol + ";'>" + msgafter +
+  msg = "<span style='position: relative; color:" + txtcol + "; font-family: inherit;'>" + msgpre + "<span style='color:" + lastcol + "; font-family: inherit;'>" + msgafter +
   "</span></span>";
  }
  
