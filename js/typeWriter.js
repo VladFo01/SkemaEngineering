@@ -1,7 +1,7 @@
 var mess=new Array(
   "Проектируем ",
   "Строим ",
-  "Согласовуем ");
+  "Согласовываем ");
  
  var txtcol = "#fff";
  var lastcol = "#C0C0C0";
